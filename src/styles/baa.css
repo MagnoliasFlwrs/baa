@@ -38,9 +38,31 @@
 @media (max-width: 768px) {
     .baa {
         padding: 150px 0;
+        background-position: top right;
+        background-size: cover;
     }
     .social > a > img {
         width: 80%;
         height: 80%;
+
+    }
+    .social {
+        flex-direction: column;
+    }
+    .tittle {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .subtittle {
+        font-size: 17px;
+        line-height: 20px;
+    }
+}
+@media (max-width: 560px) {
+    .tittle {
+        max-width: 100px;
+    }
+    .subtittle {
+        max-width: 100px;
     }
 }

@@ -75,16 +75,15 @@
     color: #1151d3;
 }
 .item__button {
-    padding: 15px;
+    width: 120px;
+    height: 40px;
     background-color: #1151d3;
     border: none;
-    border-radius: 30%;
+    border-radius: 25px;
     color: #ffffff;
     font-size: 15px;
     font-family: "Roboto";
     margin-top: auto;
-    display: block;
-
 }
 .text__wrap {
     flex: 1 1 auto;
