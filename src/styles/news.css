@@ -1,0 +1,118 @@
+.news {
+    width: 100%;
+    padding: 70px 0 100px;
+    background-color: #eff4ff;
+}
+.news__tittle {
+    font-size: 25px;
+    font-family: "Roboto";
+    color: rgb(40, 40, 40);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.news__box {
+    display: flex;
+    justify-content: space-between;
+}
+.news__card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.news__subtittle {
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(40, 40, 40);
+    line-height: 1.2;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 22px;
+}
+.news__description{
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(88, 88, 88);
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.image__wrap {
+    position: relative;
+}
+.image__wrap > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.category__wrap {
+    position: absolute;
+    padding: 10px;
+    background-color: #ffffff;
+    left: 50%;
+    bottom: -30px;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.category , .date {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.category > span , .date > span {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(40, 40, 40);
+    line-height: 1;
+    margin-left: 5px;
+    white-space: nowrap;
+}
+.category {
+    margin-right: 10px;
+}
+.fa-calendar-days , .fa-user {
+    color: #1151d3;
+}
+.item__button {
+    padding: 15px;
+    background-color: #1151d3;
+    border: none;
+    border-radius: 30%;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Roboto";
+    margin-top: auto;
+    display: block;
+
+}
+.text__wrap {
+    flex: 1 1 auto;
+}
+@media (max-width: 1200px) {
+    /* .image__wrap > img {
+        width: 90%;
+        height: 90%;
+    } */
+    .category > span , .date > span {
+        font-size: 10px;
+    }
+    .fa-calendar-days , .fa-user {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .news__box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .news__card{
+        width: 75%;
+        margin: 0 auto 40px;
+    }
+    .news__card:last-child {
+        margin-bottom: 0;
+    }
+}

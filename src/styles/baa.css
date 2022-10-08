@@ -1,0 +1,46 @@
+.baa {
+    width: 100%;
+    padding: 350px 0;
+    background-image: url(../assets/Desktop\ -\ 2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.baa__box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.tittle {
+    font-family: 'Roboto';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 33px;
+    color: #000000;
+}
+.subtittle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    margin: 15px 0;
+}
+.social {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .baa {
+        padding: 150px 0;
+    }
+    .social > a > img {
+        width: 80%;
+        height: 80%;
+    }
+}
