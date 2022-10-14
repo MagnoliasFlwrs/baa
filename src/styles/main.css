@@ -1,11 +1,9 @@
 @import url(./header.css);
 @import url(./baa.css);
-@import url(./mission.css);
 @import url(./footer.css);
 @import url(./contacts.css);
-@import url(./information.css);
 @import url(./news.css);
-@import url(./goals.css);
+
 
 *{
     margin: 0;

@@ -1,6 +1,8 @@
 const burgerMenu = document.querySelector('.burger');
 const burgerWrap = document.querySelector('.burger__wrap');
 const scroll = document.querySelector('.scroll__to__top');
+const dropdown = document.querySelector('.dropdown')
+const submenu = document.querySelector('.submenu') 
 
 if (burgerMenu) {
     burgerMenu.addEventListener('click' , (e) => {
@@ -25,3 +27,7 @@ function scrollButtonVisibility() {
 document.addEventListener('scroll' , (e) => {
     scrollButtonVisibility();
 })
+// dropdown.addEventListener('click', () => {
+//     submenu.style.visibility = 'visible';
+//     submenu.style.opacity = '1';
+// })
