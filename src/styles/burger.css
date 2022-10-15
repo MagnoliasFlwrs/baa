@@ -1,6 +1,7 @@
 .burger__nav {
     display: none;
     margin-right: 15px;
+    height: 100%;
 }
 .burger {
     position: relative;
