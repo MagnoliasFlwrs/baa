@@ -70,6 +70,7 @@
     position: relative;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 .burger__links > li {
     width: 100%;
@@ -144,7 +145,7 @@ body._lock {
     opacity: 0;
     visibility: hidden;
     background-color: #ffffff;
-    overflow: auto;
+    overflow: hidden;
     transition: all 0.5s;
 }
 .burger__wrap._active {
@@ -164,14 +165,13 @@ body._lock {
 
 .second__menu {
     position: absolute;
-    width: 100%;
     height: 100%;
     top: 0;
     left: 100%;
     opacity: 0;
     visibility: hidden;
     background-color: #ffffff;
-    overflow: auto;
+    overflow: hidden;
     transition: all 0.5s;
 }
 .burger__submenu.__transformation {
