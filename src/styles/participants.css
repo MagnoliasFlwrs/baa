@@ -1,0 +1,47 @@
+.participants {
+    width: 100%;
+    padding: 100px 0;
+}
+.participants__title {
+    font-family: 'Roboto';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.participants__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 10px;
+}
+.participants__participant {
+    padding: 16px 12px;
+    width: 16.666%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.participants__participant > img {
+    max-width: 80%;
+    width: 100%;
+}
+@media (max-width: 1200px) {
+    .participants__participant {
+        width: 25%;
+    }
+}
+@media (max-width: 900px) {
+    .participants__participant {
+        width: 33%;
+    }
+}
+@media (max-width: 768px) {
+    .participants__participant {
+        width: 45%;
+    }
+}

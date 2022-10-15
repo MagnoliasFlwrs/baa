@@ -4,6 +4,7 @@
 @import url(./footer.css);
 @import url(./contacts.css);
 @import url(./news.css);
+@import url(./participants.css);
 
 
 *{
@@ -49,6 +50,12 @@
     border: none;
     color: #ffffff;
     display: none;
+}
+.scroll__to__top::after {
+    content: '\f106';
+    font-family: FontAwesome;
+    color: #ffffff;
+    font-size: 35px;
 }
 @media (max-width: 1200px) {
     .item__tittle , .description {

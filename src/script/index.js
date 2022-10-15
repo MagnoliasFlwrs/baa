@@ -38,6 +38,5 @@ burgerWrap.addEventListener('click', (e) => {
         e.preventDefault();
 		e.target.closest('.burger__submenu').classList.remove('__transform');
 		e.target.closest('.burger__wrap').querySelector('.burger__links').classList.remove('__transform');
-
     }
 });

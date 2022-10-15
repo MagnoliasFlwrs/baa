@@ -34,12 +34,16 @@
     justify-content: space-between;
     align-items: center;
 }
+@media (max-width: 1170px)  {
+    .baa {
+        background-position: top right;
+        background-size: cover;
+    }
+}
 
 @media (max-width: 768px) {
     .baa {
         padding: 150px 0;
-        background-position: top right;
-        background-size: cover;
     }
     .social > a > img {
         width: 80%;
