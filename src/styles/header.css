@@ -39,6 +39,7 @@
   font-family: FontAwesome;
   margin-left: 4px;
   vertical-align: top;
+  display: inline-block;
 }
 .submenu {
     position: absolute;
