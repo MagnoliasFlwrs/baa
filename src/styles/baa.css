@@ -45,6 +45,7 @@
     .baa {
         padding: 250px 0;
         height: 100vh;
+        background-position: right;
     }
     .social > a > img {
         width: 80%;

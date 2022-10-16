@@ -70,10 +70,10 @@
     float: left;
     width: calc(100% / 3);
     padding: 0 18px;
-    border-right: 1px solid #e5e5e5;
+
 }
-.submenu__item:last-child {
-    border-right: none;
+.submenu__item:not(:last-child) {
+    border-right: 1px solid #e5e5e5;
 }
 .dropdown:hover .submenu {visibility: visible; opacity: 1;}
 
@@ -81,9 +81,9 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 17px;
-    color: #595959;
+    font-size: 17px;
+    line-height: 18px;
+    color: #1151d3;
     text-align: left;
     margin-bottom: 15px;
 }
@@ -101,6 +101,9 @@
     line-height: 15px;
     color: #595959;
     text-decoration: none;
+}
+.submenu__item > ul > li > a:hover {
+    color: #1151d3;
 }
 
 .nav__link {

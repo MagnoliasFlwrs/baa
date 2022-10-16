@@ -1,3 +1,4 @@
+@import url(./itc-slider.min.css);
 @import url(./burger.css);
 @import url(./header.css);
 @import url(./baa.css);
@@ -40,10 +41,10 @@
 }
 .scroll__to__top {
     position: fixed;
-    top: 50%;
+    top: 80%;
     width: 50px;
     height: 50px;
-    right: 5%;
+    right: 3%;
     border-radius: 50%;
     font-size: 35px;
     background-color: #1151d3;

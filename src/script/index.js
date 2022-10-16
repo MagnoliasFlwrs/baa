@@ -1,12 +1,15 @@
+
 const burgerMenu = document.querySelector('.burger');
 const burgerWrap = document.querySelector('.burger__wrap');
 const scroll = document.querySelector('.scroll__to__top');
-const dropdown = document.querySelector('.dropdown')
-const submenu = document.querySelector('.submenu')
-const mobileBack = document.querySelector('.mobile__back__link')
 const linksToSecond = document.querySelectorAll('.link__to__second')
-const secondMenu = document.querySelector('.second__menu')
 const secondMobileBack = document.querySelectorAll('.mobile__back__link__second')
+document.addEventListener('DOMContentLoaded', () => {
+    new ItcSlider('.slider' , {
+        loop:true,
+        swipe:true
+    });
+});
 
 if (burgerMenu) {
     burgerMenu.addEventListener('click' , (e) => {
@@ -50,11 +53,17 @@ linksToSecond.forEach((link) => {
     link.addEventListener('click' ,(e) => {
         clearClasses(e)
         e.target.closest('.burger__submenu__item').querySelector('.second__menu').classList.add('__transformation');
+        linksToSecond.forEach((link) => {
+            link.classList.remove('dropright')
+        })
     })
 })
 secondMobileBack.forEach((link) => {
     link.addEventListener('click', (e) => {
         e.target.closest('.burger__submenu__item').querySelector('.second__menu').classList.remove('__transformation');
         e.target.closest('.burger__link__item').querySelector('.burger__submenu').classList.add('__transform');
+        linksToSecond.forEach((link) => {
+            link.classList.add('dropright')
+        })
     })
 })
