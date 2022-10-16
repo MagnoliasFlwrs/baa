@@ -41,12 +41,12 @@
 }
 .scroll__to__top {
     position: fixed;
-    top: 80%;
-    width: 50px;
-    height: 50px;
+    top: 85%;
+    width: 40px;
+    height: 40px;
     right: 3%;
     border-radius: 50%;
-    font-size: 35px;
+    font-size: 20px;
     background-color: #1151d3;
     border: none;
     color: #ffffff;

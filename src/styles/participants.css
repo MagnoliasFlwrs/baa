@@ -27,8 +27,15 @@
     justify-content: center;
 }
 .participants__participant > img {
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
     max-width: 80%;
     width: 100%;
+}
+.participants__participant > img:hover {
+    filter: grayscale(0);
+    transition: all 0.5s ease;
+    /* box-shadow: 2px 1px 50px 12px rgba(17, 81, 211, 0.36); */
 }
 @media (max-width: 1200px) {
     .participants__participant {
@@ -38,6 +45,9 @@
 @media (max-width: 900px) {
     .participants__participant {
         width: 33%;
+    }
+    .participants__participant > img {
+        filter: grayscale(0);
     }
 }
 @media (max-width: 768px) {
