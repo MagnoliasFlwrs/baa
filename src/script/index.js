@@ -4,6 +4,26 @@ const burgerWrap = document.querySelector('.burger__wrap');
 const scroll = document.querySelector('.scroll__to__top');
 const linksToSecond = document.querySelectorAll('.link__to__second')
 const secondMobileBack = document.querySelectorAll('.mobile__back__link__second')
+const submenu = document.querySelector('.submenu')
+const overlay = document.querySelector('.overlay');
+const dropdowns = document.querySelectorAll('.dropdown')
+
+dropdowns.forEach((link) => {
+    link.addEventListener('click' , ()=> {
+        submenu.classList.add('open'),
+        overlay.classList.add('open')
+    })
+})
+dropdowns.forEach((link) => {
+    link.addEventListener('mouseenter' , ()=> {
+        submenu.classList.add('open'),
+        overlay.classList.add('open')
+    })
+})
+overlay.addEventListener('click', () => {
+	submenu.classList.remove('open');
+	overlay.classList.remove('open');
+});
 document.addEventListener('DOMContentLoaded', () => {
     new ItcSlider('.slider' , {
         loop:true,
