@@ -51,6 +51,9 @@
     }
 }
 @media (max-width: 768px) {
+    .participants__title {
+        text-align: left;
+    }
     .participants__participant {
         width: 45%;
     }
