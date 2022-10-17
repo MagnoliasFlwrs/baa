@@ -57,12 +57,10 @@
     background-color: #ffffff;
     padding: 25px;
     z-index: 2;
-    transition: all 0.3 ease;
     opacity: 0;
     visibility: hidden;
     width: 100%;
     /* transform: translate3d(0,30px,0); */
-    transition: 0.5 ease-in;
     transform-origin: 0% 0%;
     display: flex;
     justify-content: space-between;
@@ -96,9 +94,7 @@
 
 .submenu.open {
     visibility: visible;
-    opacity: 1;
-    transition: 0.5 ease-in;
-    
+    opacity: 1;  
 }
 .submenu__item > h3 {
     font-family: 'Montserrat';
@@ -142,7 +138,7 @@
 }
 
 .nav__btn {
-    padding: 10px 15px;
+    padding: 8px 12px;
     color: #ffffff;
     border: none;
     background-color: #1151d3;
@@ -150,8 +146,8 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 23px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 @media (max-width: 1200px) {
@@ -164,9 +160,9 @@
         line-height: 15px;
     }
     .nav__btn {
-        padding: 8px 11px;
-        font-size: 22px;
-        line-height: 24px;
+        padding: 7px 10px;
+        font-size: 19px;
+        line-height: 23px;
     }
     .nav__link:not(:last-child) {
         margin-right: 17px;
