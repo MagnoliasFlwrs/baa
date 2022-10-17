@@ -5,6 +5,7 @@
     background-color: #ffffff;
     z-index: 9999;
     position: relative;
+    transition: 0.5 ease;
 }
 .header__box {
     display: flex;
@@ -41,6 +42,12 @@
   vertical-align: top;
   display: inline-block;
 }
+.submenu__box {
+    max-width: calc(1110px + 16px*2);
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+}
 .submenu {
     position: absolute;
     top: 77%;
@@ -55,27 +62,31 @@
     visibility: hidden;
     width: 100%;
     /* transform: translate3d(0,30px,0); */
-    transition: 0.3 ease;
+    transition: 0.5 ease-in;
     transform-origin: 0% 0%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.navigation > li:hover .submenu {
+/* .navigation > li:hover .submenu {
     opacity: 1;
     visibility: visible;
-    transform: translate3d(0,0,0);
-  }
-.submenu__item {
-    float: left;
-    width: calc(100% / 3);
-    padding: 0 18px;
-
-}
-/* .submenu__item:not(:last-child) {
-    border-right: 1px solid #e5e5e5;
+    transition: 0.5 ease;
 } */
-/* .dropdown:hover .submenu {visibility: visible; opacity: 1;} */
+.submenu__box {
+    max-width: calc(1110px + 16px*2);
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.submenu__item {
+    padding: 20px;
+    max-width: calc(100% / 3);
+    width: 100%;
+}
+
 .submenu__item:nth-child(1) {
     border-right: 1px solid #e5e5e5;
 } 
@@ -86,9 +97,11 @@
 .submenu.open {
     visibility: visible;
     opacity: 1;
+    transition: 0.5 ease-in;
+    
 }
 .submenu__item > h3 {
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -104,7 +117,7 @@
     margin-bottom: 10px;
 }
 .submenu__item > ul > li > a {
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -117,7 +130,7 @@
 }
 
 .nav__link {
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -134,7 +147,7 @@
     border: none;
     background-color: #1151d3;
     text-align: center;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
@@ -160,6 +173,18 @@
     }
     .navigation > li:not(:last-child) {
         margin-right: 15px;
+    }
+}
+@media (max-width:925px) {
+    .nav__link {
+        font-size: 12px;
+        line-height: 13x;
+    }
+    .nav__link:not(:last-child) {
+        margin-right: 10px;
+    }
+    .navigation > li:not(:last-child) {
+        margin-right: 10px;
     }
 }
 @media (max-width: 860px) {

@@ -12,7 +12,7 @@
     align-items: flex-start;
 }
 .tittle {
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: bold;
     font-weight: 600;
     font-size: 25px;
@@ -20,7 +20,7 @@
     color: #000000;
 }
 .subtittle {
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;

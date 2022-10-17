@@ -5,7 +5,7 @@
 }
 .news__tittle {
     font-size: 25px;
-    font-family: "Roboto";
+    font-family: "Montserrat";
     color: rgb(40, 40, 40);
     line-height: 1.2;
     text-align: center;
@@ -21,7 +21,7 @@
 }
 .news__subtittle {
     font-size: 16px;
-    font-family: "Roboto";
+    font-family: "Montserrat";
     color: rgb(40, 40, 40);
     line-height: 1.2;
     text-align: left;
@@ -30,7 +30,7 @@
 }
 .news__description{
     font-size: 16px;
-    font-family: "Roboto";
+    font-family: "Montserrat";
     color: rgb(88, 88, 88);
     line-height: 1.2;
     text-align: left;
@@ -60,7 +60,7 @@
 }
 .category > span , .date > span {
     font-size: 15px;
-    font-family: "Roboto";
+    font-family: "Montserrat";
     color: rgb(40, 40, 40);
     line-height: 1;
     margin-left: 5px;
@@ -80,7 +80,7 @@
     border-radius: 25px;
     color: #ffffff;
     font-size: 15px;
-    font-family: "Roboto";
+    font-family: "Montserrat";
     margin-top: auto;
 }
 .slider {

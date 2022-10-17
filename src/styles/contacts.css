@@ -12,7 +12,7 @@
     background-color: #ffffff;
 }
 .contacts__wrap h2 {
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: bold;
     font-weight: 600;
     font-size: 40px;
@@ -22,7 +22,7 @@
     margin-bottom: 50px;
 }
 .contacts__wrap h3 {
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -33,7 +33,7 @@
     text-transform: uppercase;
 }
 .contact__description {
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;

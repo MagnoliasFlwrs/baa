@@ -26,7 +26,7 @@
 }
 .item__tittle {
     font-size: 16px;
-    font-family: "Roboto";
+    font-family: "Montserrat";
     color: rgb(40, 40, 40);
     line-height: 1.2;
     text-align: center;
@@ -34,7 +34,7 @@
 }
 .description {
     font-size: 16px;
-    font-family: "Roboto";
+    font-family: "Montserrat";
     color: rgb(88, 88, 88);
     line-height: 1.2;
     text-align: center;

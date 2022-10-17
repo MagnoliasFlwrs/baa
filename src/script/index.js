@@ -14,12 +14,7 @@ dropdowns.forEach((link) => {
         overlay.classList.add('open')
     })
 })
-dropdowns.forEach((link) => {
-    link.addEventListener('mouseenter' , ()=> {
-        submenu.classList.add('open'),
-        overlay.classList.add('open')
-    })
-})
+
 overlay.addEventListener('click', () => {
 	submenu.classList.remove('open');
 	overlay.classList.remove('open');
