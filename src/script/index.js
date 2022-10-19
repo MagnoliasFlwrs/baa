@@ -4,21 +4,40 @@ const burgerWrap = document.querySelector('.burger__wrap');
 const scroll = document.querySelector('.scroll__to__top');
 const linksToSecond = document.querySelectorAll('.link__to__second')
 const secondMobileBack = document.querySelectorAll('.mobile__back__link__second')
-const submenu = document.querySelector('.submenu')
+const linkWraps = document.querySelectorAll('.link__wrapper')
 const overlay = document.querySelector('.overlay');
 const dropdowns = document.querySelectorAll('.dropdown')
 
-dropdowns.forEach((link) => {
-    link.addEventListener('click' , ()=> {
-        submenu.classList.add('open'),
-        overlay.classList.add('open')
+const allSubmenues = document.querySelectorAll('.submenu')
+let subMenu= "";
+linkWraps.forEach((link) => {
+    link.addEventListener('click', (e) => {
+        if (e.target.closest('.link__wrapper')) {
+            subMenu = e.target.closest('.link__wrapper').querySelector('.submenu');
+            if (subMenu) {
+                hideSubmenu()
+                showSubMenu(subMenu);
+            } 
+        }
     })
 })
+function hideSubmenu() {
+    allSubmenues.forEach((item) => {
+        if (item.classList.contains('open')) {
+            item.classList.remove('open');
+        }
+    })
+}
+ function showSubMenu(subMenu) {
+    subMenu.classList.add('open');
+    overlay.classList.add('open');
+    overlay.addEventListener('click', () => {
+        subMenu.classList.remove('open');
+        overlay.classList.remove('open');
+    });
+    
+ }
 
-overlay.addEventListener('click', () => {
-	submenu.classList.remove('open');
-	overlay.classList.remove('open');
-});
 document.addEventListener('DOMContentLoaded', () => {
     new ItcSlider('.slider' , {
         loop:true,
