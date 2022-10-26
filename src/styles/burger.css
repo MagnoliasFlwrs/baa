@@ -90,6 +90,14 @@
     text-decoration: none;
     text-transform: uppercase;
 }
+/* .burger__link::before , .mobile__back__link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
 .mobile__back__link, .mobile__back__link__second {
     color: #1151d3;
     font-weight: 600;
