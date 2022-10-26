@@ -84,19 +84,22 @@
     width: 100%;
 }
 
-.submenu__item:nth-child(1) {
+/* .submenu__item:nth-child(1) {
     border-right: 1px solid #e5e5e5;
-} 
+}
 .submenu__item:nth-child(2) {
     border-right: 1px solid #e5e5e5;
-} 
+}
 .submenu__item:nth-child(3) {
     border-right: 1px solid #e5e5e5;
-} 
+}  */
+.submenu__item:not(:last-child) {
+    border-right: 1px solid #e5e5e5;
+}
 
 .submenu.open {
     visibility: visible;
-    opacity: 1;  
+    opacity: 1;
 }
 .submenu__item > a {
     font-family: 'Montserrat';
