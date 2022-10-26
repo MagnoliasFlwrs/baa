@@ -1,0 +1,27 @@
+@import url(../../styles/main.css);
+@import url(../../styles/burger.css);
+@import url(../../styles/header.css);
+@import url(../../styles/footer.css);
+
+.rules {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 30px 0;
+    overflow: auto;
+}
+.rules__info {
+    height: 63vh;
+    padding: 30px 0;
+}
+.rules__download {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #1151d3;
+    word-wrap: wrap;
+}
+.rules__download::before {
+    content: '\f15b';
+    color: #1151d3;
+    font-family: FontAwesome;
+    margin-right: 10px;
+}
