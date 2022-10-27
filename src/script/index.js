@@ -37,7 +37,14 @@ function hideSubmenu() {
     });
     
  }
-
+//  document.addEventListener('DOMContentLoaded', () => {
+//     document.querySelectorAll('.slider').forEach((el) => {
+//       new ItcSlider(el, {
+//         loop: true,
+//         swipe: true,
+//       })
+//     });
+//   });
 document.addEventListener('DOMContentLoaded', () => {
     new ItcSlider('.slider' , {
         loop:true,
