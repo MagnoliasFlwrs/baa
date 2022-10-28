@@ -32,3 +32,19 @@
 .text__wrap {
     padding:30px 0;
 }
+.slider__item > img {
+    object-fit: cover;
+    width: 100%;
+}
+.slider__item {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+@media (max-width: 768px) {
+    .slider__item {
+        flex: 0 0 75%;
+        max-width: 75%;
+        padding: 0 11px;
+        overflow: hidden;
+    }
+}
