@@ -7,8 +7,8 @@ const secondMobileBack = document.querySelectorAll('.mobile__back__link__second'
 const linkWraps = document.querySelectorAll('.link__wrapper')
 const overlay = document.querySelector('.overlay');
 const dropdowns = document.querySelectorAll('.dropdown')
-
 const allSubmenues = document.querySelectorAll('.submenu')
+
 let subMenu= "";
 linkWraps.forEach((link) => {
     link.addEventListener('click', (e) => {
@@ -107,4 +107,9 @@ secondMobileBack.forEach((link) => {
             link.classList.add('dropright')
         })
     })
+})
+document.addEventListener('click' , (event) => {
+    if (event.target.classList.contains('open__contacts')) {
+        window.location.assign('/src/pages/contacts/contacts__page.html')
+    }
 })
