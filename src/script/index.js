@@ -9,23 +9,23 @@ const overlay = document.querySelector('.overlay');
 const dropdowns = document.querySelectorAll('.dropdown')
 const allSubmenues = document.querySelectorAll('.submenu')
 const openContacts = document.querySelectorAll('.open__contacts')
+const allBtn = document.querySelectorAll('button')
 const allLinks = document.querySelectorAll('a')
 let subMenu= "";
 
-// '../contacts/contacts__page.html' ||
-// window.location.assign('../../../contacts/contacts__page.html' )
 allLinks.forEach((a) => {
-    if (a.innerHTML === 'Контакты') {
+    if (a.innerHTML === 'Личный кабинет') {
         a.addEventListener('click' , () => {
-            window.location.href = "/src/pages/contacts/contacts__page.html"
+            window.location.href = "https://stat.auto-baa.by/"
         })
     }
-    if (a.innerHTML === 'Главная') {
-        a.addEventListener('click' , () => {
-            window.location = "/index.html"
+})
+allBtn.forEach((btn) => {
+    if (btn.innerHTML === 'Кабинет') {
+        btn.addEventListener('click' , () => {
+            window.location.href = "https://stat.auto-baa.by/"
         })
     }
-
 })
 
 
