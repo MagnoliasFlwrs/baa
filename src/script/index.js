@@ -8,8 +8,27 @@ const linkWraps = document.querySelectorAll('.link__wrapper')
 const overlay = document.querySelector('.overlay');
 const dropdowns = document.querySelectorAll('.dropdown')
 const allSubmenues = document.querySelectorAll('.submenu')
-
+const openContacts = document.querySelectorAll('.open__contacts')
+const allLinks = document.querySelectorAll('a')
 let subMenu= "";
+
+// '../contacts/contacts__page.html' ||
+// window.location.assign('../../../contacts/contacts__page.html' )
+allLinks.forEach((a) => {
+    if (a.innerHTML === 'Контакты') {
+        a.addEventListener('click' , () => {
+            window.location.href = "/src/pages/contacts/contacts__page.html"
+        })
+    }
+    if (a.innerHTML === 'Главная') {
+        a.addEventListener('click' , () => {
+            window.location = "/index.html"
+        })
+    }
+
+})
+
+
 linkWraps.forEach((link) => {
     link.addEventListener('click', (e) => {
         if (e.target.closest('.link__wrapper')) {
@@ -17,7 +36,7 @@ linkWraps.forEach((link) => {
             if (subMenu) {
                 hideSubmenu()
                 showSubMenu(subMenu);
-            } 
+            }
         }
     })
 })
@@ -28,23 +47,16 @@ function hideSubmenu() {
         }
     })
 }
- function showSubMenu(subMenu) {
+function showSubMenu(subMenu) {
     subMenu.classList.add('open');
     overlay.classList.add('open');
     overlay.addEventListener('click', () => {
         subMenu.classList.remove('open');
         overlay.classList.remove('open');
     });
-    
+
  }
-//  document.addEventListener('DOMContentLoaded', () => {
-//     document.querySelectorAll('.slider').forEach((el) => {
-//       new ItcSlider(el, {
-//         loop: true,
-//         swipe: true,
-//       })
-//     });
-//   });
+
 document.addEventListener('DOMContentLoaded', () => {
     new ItcSlider('.slider' , {
         loop:true,
@@ -107,9 +119,4 @@ secondMobileBack.forEach((link) => {
             link.classList.add('dropright')
         })
     })
-})
-document.addEventListener('click' , (event) => {
-    if (event.target.classList.contains('open__contacts')) {
-        window.location.assign('/src/pages/contacts/contacts__page.html')
-    }
 })
