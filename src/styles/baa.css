@@ -1,7 +1,7 @@
 .baa {
     width: 100%;
-    padding: 400px 0;
-    background-image: url(../assets/Desktop\ -\ 123456.png);
+    padding: 330px 0;
+    background-image: url(../assets/Desktop\ -\ 2.png);
     background-position: top right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@
 
 @media (max-width: 768px) {
     .baa {
-        padding: 250px 0;
+        padding: 97px 0;
         height: 100vh;
         background-position: right;
     }

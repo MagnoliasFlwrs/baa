@@ -155,44 +155,21 @@ body._lock {
     visibility: hidden;
     background-color: #ffffff;
     overflow: hidden;
-    transition:  0.5s ease;
+    transition:  0.5s ease-in-out;
 }
 .burger__wrap._active {
     transform: translateX(0);
-    transition:  0.3s ease-in;
+    transition:  0.5s ease-in-out;
 }
 .burger__links._transform {
     transform: translateX(-100%);
-    transition:  0.3s ease;
+    transition:  0.5s ease-in-out;
 }
 .burger__submenu.__transform {
     left: 0;
     opacity: 1;
     visibility: visible;
-    transition:  0.3s ease;
+    transition:  0.5s ease-in-out;
 }
 
-.second__menu {
-    position: absolute;
-    background-color: #ffffff;
-    height: 100%;
-    top: 0;
-    left: 100%;
-    opacity: 0;
-    visibility: hidden;
-    background-color: #ffffff;
-    overflow: hidden;
-    transition: all 0.5s;
-}
-.burger__submenu.__transformation {
-    left: 100%;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.5s;
-}
-.second__menu.__transformation {
-    left: 0;
-    opacity: 1;
-    visibility: visible;
-    transition: all 0.5s;
-}
+

@@ -76,12 +76,14 @@ scroll.addEventListener('click' , () => {
     document.body.scrollTop = 0
     document.documentElement.scrollTop = 0;
 
+
 })
 function scrollButtonVisibility() {
     if (document.documentElement.scrollTop <= 250) {
         scroll.style.display = "none";
     } else {
-        scroll.style.display = "block";
+        scroll.style.display = "block"
+        scroll.style.behavior = "smooth";
     }
 }
 document.addEventListener('scroll' , (e) => {
