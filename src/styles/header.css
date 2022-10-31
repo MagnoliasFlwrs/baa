@@ -2,7 +2,7 @@
     position: sticky;
     top: 0;
     width: 100%;
-    padding: 25px 0;
+    padding: 20px 0;
     background-color: #ffffff;
     z-index: 9999;
 }
@@ -60,14 +60,14 @@
     border-top: 1px solid #e5e5e5;
     box-shadow: 0 3px 5px 0 rgba(0,0,0,.07);
     background-color: #ffffff;
-    padding: 25px;
+    padding: 10px;
     z-index: 5;
     opacity: 0;
     visibility: hidden;
     width: 100%;
-    transform: translateY(-10px);
+    /* transform: translateY(-10px);
     transition: all .5s ease-out;
-    transform-origin: 0% 0%;
+    transform-origin: 0% 0%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,7 +83,7 @@
 }
 .submenu__item {
     padding: 20px;
-    max-width: 25%;
+    max-width: 33%;
     width: 100%;
 }
 
@@ -95,7 +95,7 @@
     top: 100%;
     visibility: visible;
     opacity: 1;
-    transform: translateY(0);
+    /* transform: translateY(0); */
 }
 .submenu__item > a {
     font-family: 'Montserrat';

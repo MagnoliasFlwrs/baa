@@ -12,6 +12,7 @@ const openContacts = document.querySelectorAll('.open__contacts')
 const allBtn = document.querySelectorAll('button')
 const allLinks = document.querySelectorAll('a')
 let subMenu= "";
+const inputNum = document.querySelector('.input__number')
 
 allLinks.forEach((a) => {
     if (a.innerHTML === 'Личный кабинет') {
@@ -121,4 +122,7 @@ secondMobileBack.forEach((link) => {
             link.classList.add('dropright')
         })
     })
+})
+inputNum.addEventListener('focus' , (e) => {
+    e.preventDefault()
 })

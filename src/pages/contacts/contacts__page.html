@@ -130,28 +130,37 @@
                     <div class="inner">
                         <div class="contacts__info__wrapper">
                             <h3 class="anotherSubtittle" >Автомобильная ассоциация "БАА"</h3>
-                            <p class="anotherDescr">+375 (17) 322-91-31</p>
-                            <p class="anotherDescr">info@auto-baa.by</p>
-                            <p class="anotherDescr">Республика Беларусь, <br> г. Минск, пр.Жукова 44, офис 513</p>
-                            <p class="anotherDescr"> Время работы:</p>
+                            <div class="inner">
+                                <span class="number"></span>
+                                <a href="tel:+375 (17) 322-91-31" class="anotherDescr">+375 (17) 322-91-31</a>
+                            </div>
+                            <div class="inner">
+                                <span class="email"></span>
+                                <a href="mailto:info@auto-baa.by" class="anotherDescr">info@auto-baa.by</a>
+                            </div>
+                            <div class="inner">
+                                <span class="location"></span>
+                                <p class="anotherDescr">Республика Беларусь, <br> г. Минск, пр.Жукова 44,<br> офис 513</p>
+                            </div>
+                           <div class="inner">
+                            <span class="workingtime"></span>
+                            <p class="anotherDescr"> Время работы: <br> Пн-пт 9:00 - 17:30 <br> Обед: 13:00 - 14:00</p>
+                           </div>
                         </div>
                         <form class="contact__form">
                             <div class="first__line">
                                 <div class="input">
-                                    <input type="text" name="username" placeholder="Введите имя" required>
+                                    <input tabindex="1" type="text" name="username" placeholder="Введите имя*" required>
                                 </div>
                                 <div class="input">
-                                    <input type="email" name="useremail" placeholder="Введите email" required>
+                                    <input tabindex="3" type="email" name="useremail" placeholder="Введите email">
                                 </div>
                             </div>
-                            <div class="input">
+                            <div class="input input__number">
                                 <label for=""></label>
-                                <input type="number" name="usernumber" placeholder="Введите телефон" required>
+                                <input tabindex="2" type="number" name="usernumber" placeholder="Введите телефон*" required>
                             </div>
-                            <div class="input__for_message">
-                                <label for=""></label>
-                                <input type="text" name="usermessage" placeholder="Введите сообщение" required>
-                            </div>
+                            <textarea tabindex="4" contenteditable  cols="70" rows="20" placeholder="Введите cообщение"></textarea>
                             <div class="btn__wrap">
                                 <button class="form__button" type="submit">Отправить</button>
                             </div>
@@ -164,6 +173,10 @@
     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aad8c243cc7287e1208036f7fe09cec687b0503906f0d64703ccbf580a62c35f8&amp;width=100%25&amp;height=436&amp;lang=ru_RU&amp;scroll=true"></script>
     <footer class="footer">
         <p class="footer__descr">© 2022 - Ассоциация БАА </p>
+        <div class="inner">
+            <span class="number__white"></span>
+            <a href="tel:+375 (17) 322-91-31" class="footer__descr">+375 (17) 322-91-31</a>
+        </div>
     </footer>
     <button class="scroll__to__top" type="button"></button>
     <script src="../../script/index.js"></script>

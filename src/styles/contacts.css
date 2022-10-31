@@ -8,18 +8,18 @@
     position: absolute;
     left: 200px;
     bottom: 0;
-    padding: 55px 70px 55px 55px;
+    padding: 45px;
     background-color: #ffffff;
 }
 .contacts__wrap h2 {
     font-family: 'Montserrat';
     font-style: bold;
     font-weight: 600;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 30px;
     color: #000000;
     text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .contacts__wrap h3 {
     font-family: 'Montserrat';
@@ -29,7 +29,7 @@
     line-height: 17px;
     color: #000000;
     text-align: left;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     text-transform: uppercase;
 }
 .contact__description {
@@ -41,12 +41,20 @@
     color: #000000;
     text-align: left;
 }
-.contact__description:not(:last-child) {
-    margin-bottom: 40px;
+
+
+.inner {
+    display: flex;
+}
+.inner > a {
+    text-decoration: none;
+}
+.inner:not(:last-child) {
+    margin-bottom: 10px;
 }
 @media (max-width: 1024px) {
     .contacts__wrap {
-        left: 170px;
+        left: 120px;
         padding: 45px 60px 45px 45px;
     }
     .contacts__wrap h2 {
@@ -67,7 +75,7 @@
 }
 @media (max-width: 768px) {
     .contacts__wrap {
-        left: 130px;
+        left: 80px;
         padding: 35px 50px 35px 35px;
     }
     .contacts__wrap h2 {

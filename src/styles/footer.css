@@ -12,3 +12,13 @@
     color: #ffffff;
     text-align: center;
 }
+.inner {
+    justify-content: center;
+    margin-top: 10px;
+}
+.number__white::before {
+    color: #ffffff;
+    content: '\f095';;
+    font-family: FontAwesome;
+    margin-right: 10px;
+}
