@@ -65,9 +65,9 @@
     opacity: 0;
     visibility: hidden;
     width: 100%;
-    /* transform: translateY(-10px);
+    transform: translateY(-10px);
     transition: all .5s ease-out;
-    transform-origin: 0% 0%; */
+    transform-origin: 0% 0%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,7 +95,7 @@
     top: 100%;
     visibility: visible;
     opacity: 1;
-    /* transform: translateY(0); */
+    transform: translateY(0);
 }
 .submenu__item > a {
     font-family: 'Montserrat';
