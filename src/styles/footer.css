@@ -11,8 +11,10 @@
     line-height: 16px;
     color: #ffffff;
     text-align: center;
+    text-decoration: none;
 }
-.inner {
+.inner__foot {
+    display: flex;
     justify-content: center;
     margin-top: 10px;
 }
