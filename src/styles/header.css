@@ -44,17 +44,11 @@
   content: "\f107";
   font-family: FontAwesome;
   margin-left: 4px;
-  vertical-align: top;
+  vertical-align: center;
   display: inline-block;
 
 }
-.dropup:after {
-    content: "\f106";
-    font-family: FontAwesome;
-    margin-left: 4px;
-    vertical-align: top;
-    display: inline-block;
-  }
+
 .submenu__box {
     max-width: calc(1110px + 16px*2);
     padding: 0 16px;
@@ -105,27 +99,13 @@
     transform: translateY(0);
 }
 .submenu__item > a {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 18px;
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
     color: #595959;
     text-align: left;
     margin-bottom: 15px;
     text-decoration: none;
-}
-
-.nav__link {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 17px;
-    color: #595959;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: .2s linear;
 }
 
 .nav__btn {
@@ -134,10 +114,9 @@
     border: none;
     background-color: #1151d3;
     text-align: center;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
     line-height: 17px;
 }
 
@@ -146,7 +125,7 @@
         width: 80%;
         height: 80%;
     }
-    .nav__link {
+    .links__font__style {
         font-size: 14px;
         line-height: 15px;
     }
@@ -155,7 +134,7 @@
         font-size: 19px;
         line-height: 23px;
     }
-    .nav__link:not(:last-child) {
+    .links__font__style:not(:last-child) {
         margin-right: 17px;
     }
     .navigation > li:not(:last-child) {
@@ -163,11 +142,11 @@
     }
 }
 @media (max-width:925px) {
-    .nav__link {
+    .links__font__style {
         font-size: 12px;
         line-height: 13x;
     }
-    .nav__link:not(:last-child) {
+    .links__font__style:not(:last-child) {
         margin-right: 10px;
     }
     .navigation > li:not(:last-child) {
@@ -175,7 +154,7 @@
     }
 }
 @media (max-width: 860px) {
-    .nav__link {
+    .links__font__style {
         font-size: 13px;
         line-height: 14x;
     }

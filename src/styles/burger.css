@@ -80,25 +80,8 @@
     justify-content: space-between;
     align-items: center;
 }
-.burger__link , .mobile__back__link, .mobile__back__link__second {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #595959;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-/* .burger__link::before , .mobile__back__link::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-} */
-.mobile__back__link, .mobile__back__link__second {
+
+.mobile__back__link {
     color: #1151d3;
     font-weight: 600;
 }

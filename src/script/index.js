@@ -29,26 +29,15 @@ allBtn.forEach((btn) => {
     }
 })
 
-function clearIconClass() {
-    let navlinks = document.querySelectorAll('.nav__link')
-    navlinks.forEach((link) => {
-        if (link.classList.contains('dropup')) {
-            link.classList.remove('dropup')
-        }
-    })
-}
 
 linkWraps.forEach((link) => {
     link.addEventListener('click', (e) => {
         if (e.target.closest('.link__wrapper')) {
             subMenu = e.target.closest('.link__wrapper').querySelector('.submenu');
             if (!subMenu.classList.contains('open')) {
-                clearIconClass()
-                e.target.closest('.link__wrapper').querySelector('.dropdown').classList.add('dropup')
                 hideSubmenu()
                 showSubMenu(subMenu)    
             } else {
-                clearIconClass()
                 hideSubmenu()
             }
         }
@@ -67,7 +56,6 @@ function showSubMenu(subMenu) {
     subMenu.classList.add('open');
     overlay.classList.add('open');
     overlay.addEventListener('click', () => {
-        clearIconClass()
         subMenu.classList.remove('open');
         overlay.classList.remove('open');
     });
