@@ -142,6 +142,12 @@
     font-family: FontAwesome;
     margin-right: 10px;
 }
+.inner {
+    display: flex;
+}
+.inner > a {
+    text-decoration: none;
+}
 @media screen and (prefers-reduced-motion: no-preference) {
     html,
     body {
@@ -168,6 +174,7 @@
 	z-index: 99;
 	opacity: 0;
 	visibility: hidden;
+    transition: all 0.4s 0.3s ease;
 }
 
 .overlay.open {

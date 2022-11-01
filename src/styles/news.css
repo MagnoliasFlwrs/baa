@@ -58,12 +58,12 @@
     transform: translate(-50%, -50%);
     display: flex;
 }
-.category , .date {
+.category , .news__date {
     display: flex;
     align-items: flex-start;
     justify-content: center;
 }
-.category > span , .date > span {
+.category > span , .news__date > span {
     font-size: 12px;
     font-family: "Montserrat";
     color: rgb(40, 40, 40);

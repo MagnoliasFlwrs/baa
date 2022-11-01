@@ -42,8 +42,10 @@
     text-align: left;
 }
 
-
-.inner {
+.cont__inner:not(:last-child) {
+    margin-bottom: 10px;
+} 
+/* .inner {
     display: flex;
 }
 .inner > a {
@@ -51,7 +53,7 @@
 }
 .inner:not(:last-child) {
     margin-bottom: 10px;
-}
+} */
 @media (max-width: 1024px) {
     .contacts__wrap {
         left: 120px;
