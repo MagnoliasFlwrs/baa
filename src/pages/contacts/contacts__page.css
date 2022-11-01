@@ -11,11 +11,15 @@
 .inner__cont {
     display: flex;
 }
-.inner {
-    display: flex;
-}
 .inner > a {
     text-decoration: none;
+}
+.inner:not(:last-child) {
+    margin-bottom: 10px;
+}
+.inner > .anotherDescr {
+    margin-bottom: 0;
+    margin-top: 0;
 }
 .contacts__info__wrapper {
     padding: 100px 50px;
@@ -51,7 +55,7 @@ textarea {
     resize: none;
 }
 textarea::placeholder , .input > input::placeholder {
-    font-family: 'Montserrat';
+    font-family: "Manrope", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -79,7 +83,7 @@ input[type="number"]::-webkit-inner-spin-button {
     border: none;
     background-color: #1151d3;
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: "Manrope", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;

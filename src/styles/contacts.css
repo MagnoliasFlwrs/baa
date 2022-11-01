@@ -12,7 +12,7 @@
     background-color: #ffffff;
 }
 .contacts__wrap h2 {
-    font-family: 'Montserrat';
+    font-family: "Manrope", sans-serif;
     font-style: bold;
     font-weight: 600;
     font-size: 22px;
@@ -22,9 +22,9 @@
     margin-bottom: 40px;
 }
 .contacts__wrap h3 {
-    font-family: 'Montserrat';
+    font-family: "Manrope", sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 17px;
     color: #000000;
@@ -33,7 +33,7 @@
     text-transform: uppercase;
 }
 .contact__description {
-    font-family: 'Montserrat';
+    font-family: "Manrope", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -44,16 +44,8 @@
 
 .cont__inner:not(:last-child) {
     margin-bottom: 10px;
-} 
-/* .inner {
-    display: flex;
 }
-.inner > a {
-    text-decoration: none;
-}
-.inner:not(:last-child) {
-    margin-bottom: 10px;
-} */
+
 @media (max-width: 1024px) {
     .contacts__wrap {
         left: 120px;
