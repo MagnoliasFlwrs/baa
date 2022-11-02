@@ -43,7 +43,7 @@ body {
     line-height: 35px;
     font-family: "Manrope", sans-serif;
     font-weight: 700;
-    color: rgb(88, 88, 88);
+    color: rgb(73, 73, 73);
     margin-bottom: 20px;
 }
 .links__font__style , .second__subtittle , .burger__link , .nav__link , .mobile__back__link {
@@ -53,7 +53,7 @@ body {
     font-family: "Manrope", sans-serif;
     font-weight: 700;
     /* color: #090d2f; */
-    color: rgb(88, 88, 88);;
+    color: rgb(73, 73, 73);
 }
 
 .description {
@@ -68,7 +68,7 @@ body {
     font-size: 12px;
     font-family: "Manrope", sans-serif;
     font-weight: 400;
-    color: rgb(88, 88, 88);
+    color: rgb(73, 73, 73);
     margin-left: 5px;
     white-space: nowrap;
 }
@@ -82,7 +82,7 @@ body {
     font-size: 16px;
     font-family: "Manrope", sans-serif;
     font-weight: 700;
-    color: rgb(88, 88, 88);
+    color: rgb(73, 73, 73);
     line-height: 1.7em;
     margin-right: 10px;
 }
@@ -94,7 +94,7 @@ body {
 }
 .arrow::after {
     content: '\f105';
-    color: #595959;
+    color: rgb(73, 73, 73);
     font-family: FontAwesome;
     font-size: 12px;
     margin-left: 10px;
