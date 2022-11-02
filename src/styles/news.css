@@ -154,7 +154,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
     .slider__item {
         flex: 0 0 50%;
         max-width: 50%;
@@ -172,6 +172,5 @@
         flex: 0 0 75%;
         max-width: 75%;
         padding: 0 11px;
-        overflow: hidden;
     }
 }

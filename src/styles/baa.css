@@ -30,6 +30,7 @@
     .baa {
         padding: 97px 0;
         height: 100vh;
+        background-image: url(../assets/Desktop\ -\ 1\ mobile.png);
         background-position: right;
     }
     .social > a > img {
@@ -40,20 +41,20 @@
     .social {
         flex-direction: column;
     }
-    .tittle {
+    .baa__box > .tittle {
         font-size: 20px;
         line-height: 25px;
     }
-    .subtittle {
+    .baa__box > .subtittle {
         font-size: 17px;
         line-height: 20px;
     }
 }
 @media (max-width: 560px) {
-    .tittle {
+    .baa__box > .tittle {
         max-width: 100px;
     }
-    .subtittle {
+    .baa__box > .subtittle {
         max-width: 100px;
     }
 }
