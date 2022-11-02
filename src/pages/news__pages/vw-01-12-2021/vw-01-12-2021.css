@@ -16,7 +16,7 @@
     object-fit: cover;
     object-position: bottom center;
     width: 100%;
-    height: 50vh;
+    height: 80vh;
 }
 .date {
     display: flex;
