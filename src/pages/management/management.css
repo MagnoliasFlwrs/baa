@@ -5,16 +5,53 @@
 
 .management {
     width: 100%;
-    height: 78vh;
     background-color: #ffffff;
     padding: 30px 0;
 }
 .lit {
-    font-family: 'Montserrat' , sans-serif;
+    font-family: "Manrope", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.7em;
     color: #000000;
     margin-right: 5px;
+}
+.management__wrapper {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.manager__card {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 1px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.img {
+    height: 350px;
+}
+.img > img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+.manager__card > .anotherDescr {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.manager__card > .description {
+    margin-top: 5px;
+}
+@media (max-width: 650px) {
+    .management__wrapper {
+        flex-direction: column;
+    }
+    .manager__card {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
 }
