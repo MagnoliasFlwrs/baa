@@ -10,6 +10,7 @@
     bottom: 0;
     padding: 45px;
     background-color: #ffffff;
+    border-radius: 5px;
 }
 .contacts__wrap h2 {
     font-family: "Manrope", sans-serif;

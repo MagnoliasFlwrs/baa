@@ -3,15 +3,24 @@
 @import url(../../styles/header.css);
 @import url(../../styles/footer.css);
 
-.history {
+.join__us {
     width: 100%;
-    height: 78vh;
     background-color: #ffffff;
     padding: 30px 0;
 }
-
+.text__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
 .join__inner {
-    margin-bottom: 40px;
+    padding-right: 30px;
+}
+.documents__inner {
+    background-color: #f1f1f1;
+    padding: 25px;
+    height: 100%;
+    width: 40%;
+    border-radius: 5px;
 }
 .img >img {
     object-fit: cover;
@@ -42,6 +51,22 @@
     margin-right: 10px;
 }
 
+@media (max-width:1110px) {
+    .text__wrapper {
+        flex-direction: column-reverse;
+    }
+    .join__inner {
+        padding-right: 0;
+    }
+    .documents__inner {
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
 @media (max-width:800px) {
     .img {
         display: none;

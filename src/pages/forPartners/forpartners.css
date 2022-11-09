@@ -23,7 +23,13 @@
     height: 100%;
 }
 .text__inner {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
+}
+.text__inner > .anotherSubtittle {
+    margin-bottom: 15px;
+}
+.text__inner > .anotherDescr {
+    margin-top: 10px;
 }
 .text__inner:last-child {
     margin-bottom: 0;

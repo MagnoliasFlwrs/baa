@@ -6,15 +6,24 @@
 .rules {
     width: 100%;
     background-color: #ffffff;
-    padding: 30px 0;
+    padding: 30px 0 255px;
     overflow: auto;
 }
 .rules__info {
-    height: 65vh;
-
+    display: flex;
+    justify-content: space-between;
 }
+.rule__text__wrap {
+    max-width: 70%;
+}
+.rule__inner {
+    width: 25%;
+    background-color: #f1f1f1;
+    padding: 25px;
+}
+
 .rules__download {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.7em;
@@ -28,4 +37,16 @@
     color: #1151d3;
     font-family: FontAwesome;
     margin-right: 10px;
+}
+@media (max-width:670px) {
+    .rules__info {
+        flex-direction: column-reverse;
+    }
+    .rule__inner {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .rule__text__wrap {
+        width: 100%;
+    }
 }
