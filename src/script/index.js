@@ -11,7 +11,7 @@ const allSubmenues = document.querySelectorAll('.submenu')
 const openContacts = document.querySelectorAll('.open__contacts')
 const allBtn = document.querySelectorAll('button')
 const allLinks = document.querySelectorAll('a')
-let subMenu= "";
+// let subMenu= "";
 const inputNum = document.querySelector('.input__number')
 
 allLinks.forEach((a) => {

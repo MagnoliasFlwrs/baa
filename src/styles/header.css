@@ -19,7 +19,7 @@
 }
 .logo {
     position: relative;
-    padding: 15px 0;
+    padding: 10px 0;
     z-index: 10;
 }
 .menu__wrapper {
@@ -28,7 +28,7 @@
 }
 .menu__wrapper li {
     position: relative;
-    padding: 35px 15px;
+    padding: 30px 15px;
 }
 .dropdown::after {
     content: "\f107";
@@ -146,7 +146,7 @@
         line-height: 15px;
     }
     .menu__wrapper li {
-        padding: 35px 10px;
+        padding: 30px 10px;
     }
 }
 @media (max-width:935px) {

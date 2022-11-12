@@ -50,7 +50,7 @@ body {
     color: rgb(73, 73, 73);
     margin-bottom: 20px;
 }
-.links__font__style , .second__subtittle , .burger__link , .nav__link , .mobile__back__link {
+.links__font__style , .second__subtittle , .burger__link , .nav__link , .mobile__back__link , .submenu__item > a {
     list-style: none;
     text-decoration: none;
     font-size: 16px;
