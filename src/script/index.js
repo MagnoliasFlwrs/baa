@@ -67,12 +67,21 @@ document.addEventListener('DOMContentLoaded', () => {
         swipe:true
     });
 });
-
+overlay.addEventListener('click', () => {
+            subMenu.classList.remove('open');
+            overlay.classList.remove('open');
+        });
 if (burgerMenu) {
     burgerMenu.addEventListener('click' , (e) => {
         document.body.classList.toggle('_lock');
         burgerMenu.classList.toggle('_active');
         burgerWrap.classList.toggle('_active');
+        overlay.classList.toggle('open');
+        overlay.addEventListener('click', () => {
+            burgerMenu.classList.remove('_active');
+            burgerWrap.classList.remove('_active');
+            overlay.classList.remove('open');
+        });
 
     })
 }
