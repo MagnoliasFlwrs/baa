@@ -61,7 +61,6 @@ allBtn.forEach((btn) => {
 
 //  }
 
-
 document.addEventListener('DOMContentLoaded', () => {
     new ItcSlider('.slider' , {
         loop:true,
