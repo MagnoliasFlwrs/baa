@@ -28,13 +28,13 @@
     align-items: flex-start;
 }
 .history__info__mobile > .timeline > .line {
-    width: 30px;
+    width: 20px;
     height: 250px;
 }
 
 .line {
     width: 20%;
-    height: 30px;
+    height: 15px;
 }
 .line:nth-child(odd) {
     background-color: #6488d1;
@@ -97,7 +97,7 @@
     background-color: #cccccc;
     position: absolute;
     left: 30%;
-    top: 55%;
+    top: 53%;
 }
 .history__info__mobile > .line__2 {
     position: absolute;
@@ -111,7 +111,7 @@
     padding: 5px;
     width: 18%;
     position: absolute;
-    top: 70%;
+    top: 68%;
     left: 30%;
     transform: translateX(-50%);
     border-radius: 5px;
@@ -173,7 +173,7 @@
     background-color: #cccccc;
     position: absolute;
     left: 70%;
-    top: 55%;
+    top: 53%;
 }
 .history__info__mobile > .line__4 {
     position: absolute;
@@ -188,7 +188,7 @@
     padding: 5px;
     width: 18%;
     position: absolute;
-    top: 70%;
+    top: 68%;
     left: 70%;
     transform: translateX(-50%);
     border-radius: 5px;
