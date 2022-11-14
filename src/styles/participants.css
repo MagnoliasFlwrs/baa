@@ -15,7 +15,7 @@
 }
 .participants__participant {
     padding: 16px 12px;
-    width: 16.666%;
+    width: 11%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,12 +33,12 @@
 }
 @media (max-width: 1200px) {
     .participants__participant {
-        width: 25%;
+        width: 20%;
     }
 }
 @media (max-width: 900px) {
     .participants__participant {
-        width: 33%;
+        width: 25%;
     }
     .participants__participant > img {
         filter: grayscale(0);
@@ -49,6 +49,6 @@
         text-align: left;
     }
     .participants__participant {
-        width: 45%;
+        width: 33%;
     }
 }
