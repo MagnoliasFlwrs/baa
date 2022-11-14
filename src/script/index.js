@@ -88,8 +88,6 @@ if (burgerMenu) {
 scroll.addEventListener('click' , () => {
     document.body.scrollTop = 0
     document.documentElement.scrollTop = 0;
-
-
 })
 function scrollButtonVisibility() {
     if (document.documentElement.scrollTop <= 250) {
@@ -134,4 +132,19 @@ secondMobileBack.forEach((link) => {
             link.classList.add('dropright')
         })
     })
+})
+let scrollpos = window.scrollY
+
+const header = document.querySelector("header")
+const scrollChange = 10
+
+const add_class_on_scroll = () => header.classList.add("_onscroll")
+const remove_class_on_scroll = () => header.classList.remove("_onscroll")
+
+window.addEventListener('scroll', function() { 
+  scrollpos = window.scrollY;
+
+  if (scrollpos >= scrollChange) { add_class_on_scroll() }
+  else { remove_class_on_scroll() }
+  
 })

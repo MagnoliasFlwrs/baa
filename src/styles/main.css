@@ -13,6 +13,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 a, button, img, input {
     transition: all 0.3s linear;
     outline: 0;
