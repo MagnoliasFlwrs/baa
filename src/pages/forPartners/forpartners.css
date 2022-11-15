@@ -39,6 +39,10 @@
         flex-direction: column;
     }
     .text__wrapper {
-        max-width: 100%;;
+        max-width: 100%;
+        padding: 0;
+    }
+    .img {
+        display: none;
     }
 }
