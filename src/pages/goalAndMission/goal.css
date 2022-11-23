@@ -13,12 +13,17 @@
     display: flex;
     justify-content: space-between;
 }
-.goal__inner:first-child {
+.goalinner{
     margin-bottom: 40px;
 }
 .goal__wrap > .text__wrap {
     max-width: 40%;
-
+}
+.goal__inner > .anotherSubtittle {
+    margin-bottom: 0;
+}
+.goal__inner > .anotherDescr {
+    margin-top: 20px;
 }
 .img > img {
     object-fit: cover;

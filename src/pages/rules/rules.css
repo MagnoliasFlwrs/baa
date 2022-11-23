@@ -48,6 +48,7 @@
         margin-bottom: 20px;
     }
     .rule__text__wrap {
-        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
     }
 }
