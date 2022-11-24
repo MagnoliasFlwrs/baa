@@ -192,7 +192,8 @@
     padding-left: 10px;
 }
 .news__form > button {
-    padding: 8px 12px;
+    padding: 0 12px ;
+    height: 30px;
     color: #ffffff;
     border: none;
     background-color: #1151d3;
