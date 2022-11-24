@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./statistic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Статистика</title>
+</head>
+<body>
+    <div class="overlay"></div>
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="content header__box">
+                <a class="logo" href="../../../index.html"><img src="../../assets/Лого.png" alt="logo" width="188" height="73"></a>
+                <div class="navigation">
+                    <ul class="menu__wrapper">
+                        <li class="link__wrapper " >
+                            <a class="links__font__style" href="./index.html">Главная</a>
+                        </li>
+                        <li class="link__wrapper">
+                            <a class="links__font__style dropdown  " href="#">О БАА </a>
+                            <ul class="submenu">
+                                <li class="submenu__item">
+                                    <a class="links__font__style" href="../history/history.html">История</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a class="links__font__style" href="../goalAndMission/goal.html">Цель и миссия</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a class="links__font__style" href="../management/management.html">Органы управления</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a class="links__font__style" href="../rules/rules.html">Устав БАА</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="link__wrapper">
+                            <a class="links__font__style dropdown " href="#">Членство </a>
+                            <ul class="submenu">
+                                <li class="submenu__item">
+                                    <a class="links__font__style" href="../members/members.html">Члены БАА</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a class="links__font__style" href="../joinUs/join_us.html">Вступить в БАА</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a class="links__font__style" href="../forPartners/forpartners.html">Партнерам</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="link__wrapper">
+                            <a class="links__font__style" href="../pressa/pressa.html">Для прессы </a>
+                        </li>
+                        <li class="link__wrapper active-menu">
+                            <a class="links__font__style" href="./statistic.html">Статистика</a>
+                        </li>
+                        <li class="open__contacts link__wrapper">
+                            <a class="links__font__style open__contacts"  href="../contacts/contacts__page.html">Контакты</a>
+                        </li>
+                        <li class="link__wrapper">
+                            <button class="nav__btn" type="button">Кабинет</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="burger__nav">
+                    <div class="burger">
+                        <span class="bar menu-top"></span>
+                        <span class="bar menu-middle"></span>
+                        <span class="bar menu-bottom"></span>
+                    </div>
+                    <div class="burger__wrap">
+                        <ul class="burger__links">
+                            <li class="burger__link__item link__wrap "><a class="burger__link links__font__style" href="#">Главная</a></li>
+                            <li class="burger__link__item link__wrap">
+                                <a class="burger__link  links__font__style burger__link__dropdown dropright " href="#">О БАА  </a>
+                                <div class="burger__submenu">
+                                    <div class="link__wrap"><a class="mobile__back__link links__font__style dropleft" href="#">Назад</a></div>
+                                    <div class="burger__submenu__item">
+                                        <div class="link__wrap"><a class="burger__link links__font__style" href="../history/history.html">История</a></div>
+                                    </div>
+                                    <div class="burger__submenu__item">
+                                        <div class="link__wrap"><a class=" burger__link  links__font__style" href="../goalAndMission/goal.html">Цель и миссия</a></div>
+                                    </div>
+                                    <div class="burger__submenu__item">
+                                        <div class="link__wrap"><a class=" burger__link links__font__style " href="../management/management.html">Органы управления</a></div>
+                                    </div>
+                                    <div class="burger__submenu__item">
+                                        <div class="link__wrap"><a class=" burger__link links__font__style " href="../rules/rules.html">Устав БАА</a></div>
+                                    </div>
+                                <div>
+                            </li>
+                            <li class="burger__link__item link__wrap">
+                                 <a class="burger__link  links__font__style burger__link__dropdown dropright" href="#">Членство </a>
+                                 <div class="burger__submenu">
+                                    <div class="link__wrap"><a class="mobile__back__link links__font__style dropleft" href="#">Назад</a></div>
+                                    <div class="burger__submenu__item">
+                                        <div class="link__wrap"><a class=" burger__link  links__font__style" href="../members/members.html">Члены БАА</a></div>
+                                    </div>
+                                    <div class="burger__submenu__item">
+                                        <div class="link__wrap"><a class=" burger__link links__font__style" href="../joinUs/join_us.html">Вступить в БАА</a></div>
+                                    </div>
+                                    <div class="burger__submenu__item">
+                                        <div class="link__wrap"><a class=" burger__link links__font__style " href="../forPartners/forpartners.html">Партнерам</a></div>
+                                    </div>
+                                <div>
+                            </li>
+                            <li class="burger__link__item link__wrap">
+                                <a class="burger__link links__font__style" href="../pressa/pressa.html">Для прессы </a>
+                            </li>
+                            <li class="burger__link__item link__wrap">
+                                <a class="burger__link links__font__style" href="./statistic.html">Статистика </a>
+                            </li>
+                            <li class="burger__link__item link__wrap open__contacts"><a class="burger__link links__font__style" href="../contacts/contacts__page.html">Контакты</a></li>
+                            <li class="burger__link__item link__wrap"><a class="burger__link links__font__style" href="#">Личный кабинет</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="content">
+                <div class="nav__bread">
+                    <a class="arrow" href="../../../index.html"> Главная </a>
+                    <a href="#">Статистика</a>
+                </div>
+                <h1 class="anotherTittle">Статистика</h1>
+                <div class="statistic__info">
+                    <div class="statistic__card">
+                        <div class="news__month">
+                            <p class="anotherDescr year__tittle">2022</p>
+                            <p class="anotherSubtittle month__tittle">ноябрь</p>
+                        </div>
+                        <div class="car__sales">
+                            <p class="anotherSubtittle">ПРОДАЖИ ЛЕГКОВЫХ И ЛЕГКИХ КОММЕРЧЕСКИХ АВТОМОБИЛЕЙ В БЕЛАРУСИ В ОКТЯБРЕ 2022</p>
+                        </div>
+                        <div class="comment__baa">
+                            <p class="comment__tittle">Комментарий правления БАА</p>
+                            <p class="anotherDescr">
+                                Автомобильный рынок легковых автомобилей в октябре 2022 года показал незначительный прирост по сравнению с сентябрём.
+
+Продажи составили 452 легковых автомобиля, что на 86% меньше по сравнению с октябрём 2021 года. Рост стал возможен за счёт наращивания объёмов продаж маркой Geely. При этом общая доля китайских марок в октябре увеличилась до 62%.  
+Объёмы продаж остальных брендов резко сокращаются. Те бренды, которые ещё производят продажи, сократили свои объёмы в среднем на 95% по сравнению с предыдущим годом.
+По итогам 10 месяцев 2022 г. на рынке лидером остается марка LADA – с результатом 3 631 автомобилей.
+
+Комментарий члена Правления БАА Г.Б.Свидерского.
+На белорусском и российском рынке продаж новых автомобилей в октябре продолжалось увеличением доли продаж китайских марок. 
+Цены на автомобили с мая не повышались, по некоторым маркам уменьшились.
+В октябре в сравнение с сентябрём объёмы продаж несколько выросли. 
+Необходимо увеличивать предложения по продажам новых автомобилей, только это улучшит финансовое состояние организаций отрасли.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__descr">© 2022 - Ассоциация "БАА" </p>
+        <div class="inner__foot">
+            <span class="number__white"></span>
+            <a href="tel:+375 (17) 322-91-31" class="footer__descr">+375 (17) 322-91-31</a>
+        </div>
+    </footer>
+    <button class="scroll__to__top" type="button"></button>
+    <script src="../../script/index.js"></script>
+</body>
+</html>

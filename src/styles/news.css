@@ -231,4 +231,11 @@
         max-width: 75%;
         padding: 0 11px;
     }
+    .news__form {
+        flex-direction: column;
+    }
+    .news__form > input {
+        margin: 25px 0;
+        width: 180px;
+    }
 }
