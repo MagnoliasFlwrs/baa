@@ -85,7 +85,7 @@ body {
     margin-left: 0;
 }
 
-.nav__bread > a {
+.nav__bread > a , .nav__bread > span  {
     list-style: none;
     text-decoration: none;
     font-size: 16px;
@@ -100,6 +100,9 @@ body {
 }
 .arrow:hover {
     color: #1151d3;
+}
+.disbl:hover {
+    color:rgb(73, 73, 73); ;
 }
 .arrow::after {
     content: '\f105';

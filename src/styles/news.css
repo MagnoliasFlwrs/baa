@@ -166,7 +166,43 @@
     font-size: 35px;
 }
 
-
+.news__form {
+    padding: 40px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news__form > input {
+    margin: 0 30px ;
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.news__form > input:focus {
+    border-bottom: 1px solid #1151d3;
+    box-shadow: 0 6px 4px -4px rgba(17, 81, 211, 0.63);
+}
+.news__form > input::placeholder {
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    padding-left: 10px;
+}
+.news__form > button {
+    padding: 8px 12px;
+    color: #ffffff;
+    border: none;
+    background-color: #1151d3;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    line-height: 17px;
+}
 @media (max-width: 1200px) {
     .category > span , .date > span {
         font-size: 10px;
