@@ -203,6 +203,7 @@
     font-family: "Manrope", sans-serif;
     font-weight: 700;
     line-height: 17px;
+    vertical-align: middle;
 }
 @media (max-width: 1200px) {
     .category > span , .date > span {

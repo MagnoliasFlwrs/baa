@@ -3,11 +3,18 @@
 @import url(../../styles/header.css);
 @import url(../../styles/footer.css);
 
+
+.statistic {
+    padding: 30px 0;
+}
 .year__tittle {
     color: #1151d3;
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 0;
+}
+.statistic__card {
+    padding: 15px;
 }
 .month__tittle {
     font-weight: 700;
@@ -36,4 +43,9 @@
     color: #3a3b43;
     text-align: left;
     margin-bottom: 10px;
+}
+.comment__author {
+    text-align: right;
+    color: rgb(58, 59, 67);;
+    font-weight: 600;
 }
