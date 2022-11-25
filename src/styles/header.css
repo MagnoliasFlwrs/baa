@@ -81,6 +81,7 @@
     font-size: 15px;
     font-family: "Manrope", sans-serif;
     font-weight: 600;
+    line-height: 1.7em;
     display: block;
     position: relative;
     z-index: 1;
@@ -132,7 +133,7 @@
     font-size: 15px;
     font-family: "Manrope", sans-serif;
     font-weight: 700;
-    line-height: 17px;
+    line-height: 1.7em;
 }
 
 @media (max-width: 1200px) {
@@ -142,12 +143,10 @@
     }
     .links__font__style {
         font-size: 14px;
-        line-height: 15px;
     }
     .nav__btn {
         padding: 7px 10px;
         font-size: 14px;
-        line-height: 15px;
     }
     .menu__wrapper li {
         padding: 30px 10px;
@@ -156,7 +155,6 @@
 @media (max-width:935px) {
     .links__font__style {
         font-size: 12px;
-        line-height: 13x;
     }
     .links__font__style:not(:last-child) {
         margin-right: 10px;

@@ -73,7 +73,7 @@
     font-family: "Manrope", sans-serif;
     font-weight: 600;
     color: #ffffff;
-    line-height: 1;
+    line-height: 1.7em;
     margin-left: 5px;
     white-space: nowrap;
 }
@@ -95,6 +95,7 @@
     font-family: "Manrope", sans-serif;
     font-weight: 400;
     text-align: right;
+    line-height: 1.7em;
 }
 .info__link::after {
     content: '\f178';
@@ -186,7 +187,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 14px;
+    line-height: 1.7em;
     padding-left: 10px;
 }
 .news__form > button {
@@ -200,7 +201,7 @@
     font-size: 15px;
     font-family: "Manrope", sans-serif;
     font-weight: 700;
-    line-height: 17px;
+    line-height: 1.7em;
     vertical-align: middle;
 }
 .form__container {

@@ -17,7 +17,7 @@
     font-style: bold;
     font-weight: 600;
     font-size: 22px;
-    line-height: 30px;
+    line-height: 1.7em;
     color: #000000;
     text-align: left;
     margin-bottom: 40px;
@@ -27,7 +27,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 17px;
+    line-height: 1.7em;
     color: #000000;
     text-align: left;
     margin-bottom: 30px;
@@ -38,7 +38,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height: 16px;
+    line-height: 1.7em;
     color: #000000;
     text-align: left;
 }
@@ -75,15 +75,12 @@
     }
     .contacts__wrap h2 {
         font-size: 30px;
-        line-height: 30px;
     }
     .contacts__wrap h3 {
         font-size: 14px;
-        line-height: 15px;
     }
     .contact__description {
         font-size: 13px;
-        line-height: 14px;
     }
     .contact__description:not(:last-child) {
         margin-bottom: 25px;
@@ -97,15 +94,12 @@
     }
     .contacts__wrap h2 {
         font-size: 20px;
-        line-height: 25px;
     }
     .contacts__wrap h3 {
         font-size: 12px;
-        line-height: 13px;
     }
     .contact__description {
         font-size: 11px;
-        line-height: 12px;
     }
     .contact__description:not(:last-child) {
         margin-bottom: 15px;
