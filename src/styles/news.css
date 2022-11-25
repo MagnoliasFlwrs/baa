@@ -167,9 +167,7 @@
 }
 
 .news__form {
-    padding: 40px 0 0;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .news__form > input {
@@ -205,6 +203,13 @@
     line-height: 17px;
     vertical-align: middle;
 }
+.form__container {
+    padding: 50px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 1200px) {
     .category > span , .date > span {
         font-size: 10px;
@@ -233,6 +238,9 @@
         max-width: 75%;
         padding: 0 11px;
     }
+    .form__container {
+        flex-direction: column-reverse;
+    }
     .news__form {
         flex-direction: column;
     }
@@ -240,4 +248,5 @@
         margin: 25px 0;
         width: 180px;
     }
+
 }

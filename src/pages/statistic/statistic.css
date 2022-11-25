@@ -25,12 +25,15 @@
     padding-bottom: 10px;
 }
 .comment__baa {
+    width: 65%;
     padding: 10px;
     border-radius: 5px;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
+    box-shadow: -1px 0px 8px 2px rgba(34, 60, 80, 0.2);
 }
 .comment__baa > .anotherDescr {
     margin-top: 0 ;
+    margin-bottom: 5px;
 }
 .car__sales {
     padding: 15px 0;
@@ -44,8 +47,25 @@
     text-align: left;
     margin-bottom: 10px;
 }
+.sec__tittle {
+    margin-top: 25px;
+}
 .comment__author {
     text-align: right;
     color: rgb(58, 59, 67);;
     font-weight: 600;
+}
+.author__wrap {
+    display: flex;
+    flex-direction: column;
+}
+.author__wrap > .description {
+    margin-top: 0;
+    text-align: right;
+    font-style: italic;
+}
+@media (max-width:768px) {
+    .comment__baa {
+        width: 100%;
+    }
 }
