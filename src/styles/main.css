@@ -33,7 +33,7 @@ body {
 }
 .main__tittle {
     font-size:35px;
-    line-height: 1.25;
+    line-height: 1.7em;
     font-family: "Manrope", sans-serif;
     display: inline-block;
     font-weight: 700;
@@ -42,7 +42,7 @@ body {
 }
 .tittle {
     font-size: 30px;
-    line-height: 1.25;
+    line-height: 1.7em;
     font-family: "Manrope", sans-serif;
     font-weight: 700;
     color: #000000;
@@ -50,7 +50,7 @@ body {
 }
 .subtittle {
     font-size: 24px;
-    line-height: 35px;
+    line-height: 1.7em;
     font-family: "Manrope", sans-serif;
     font-weight: 700;
     color: rgb(73, 73, 73);
@@ -62,13 +62,14 @@ body {
     font-size: 16px;
     font-family: "Manrope", sans-serif;
     font-weight: 700;
+    line-height: 1.7em;
     /* color: #090d2f; */
     color: rgb(73, 73, 73);
 }
 
 .description {
     font-size: 14px;
-    line-height: 17px;
+    line-height: 1.7em;
     font-family: "Manrope", sans-serif;
     font-weight: 400;
     color: #4c4d56;
@@ -80,6 +81,7 @@ body {
     font-weight: 400;
     color: rgb(73, 73, 73);
     margin-left: 5px;
+    line-height: 1.7em;
     white-space: nowrap;
 }
 .date__text {
@@ -117,7 +119,7 @@ body {
 }
 .anotherTittle {
     font-size: 25px;
-    line-height: 35px;
+    line-height: 1.7em;
     font-family: "Manrope", sans-serif;
     font-weight: 700;
     color: #090d2f;
@@ -132,12 +134,13 @@ body {
     font-size: 20px;
     font-family: "Manrope", sans-serif;
     font-weight: 700;
+    line-height: 1.7em;
     color: #3a3b43;
     margin-bottom: 18px;
 }
 .anotherDescr {
     font-size: 15px;
-    line-height: 17px;
+    line-height: 1.7em;
     font-family: "Manrope", sans-serif;
     font-weight: 400;
     color: #4c4d56;

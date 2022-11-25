@@ -26,6 +26,7 @@
 }
 .bold__email {
     font-weight: 700;
+    text-decoration: none;
 }
 .comment__baa {
     width: 65%;
@@ -34,7 +35,13 @@
     background-color: #ffffff;
     box-shadow: -1px 0px 8px 2px rgba(34, 60, 80, 0.2);
 }
-.comment__baa > .anotherDescr {
+.comment__baa__main {
+    width:70%;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+.comment__baa > .anotherDescr , .comment__baa__main > .anotherDescr  {
     margin-top: 0 ;
     margin-bottom: 5px;
 }
