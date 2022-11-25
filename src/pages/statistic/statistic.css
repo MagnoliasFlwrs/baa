@@ -54,6 +54,7 @@
     text-align: right;
     color: rgb(58, 59, 67);;
     font-weight: 600;
+    margin-bottom: 5px;
 }
 .author__wrap {
     display: flex;
