@@ -75,7 +75,7 @@
     font-style: italic;
 }
 @media (max-width:768px) {
-    .comment__baa {
+    .comment__baa , .comment__baa__main {
         width: 100%;
     }
 }
