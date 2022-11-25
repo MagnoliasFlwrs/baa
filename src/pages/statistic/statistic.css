@@ -39,6 +39,7 @@
     width:70%;
     padding-right: 30px;
     border-radius: 5px;
+    background-color: #ffffff;
 }
 .comment__baa > .anotherDescr , .comment__baa__main > .anotherDescr  {
     margin-top: 0 ;
