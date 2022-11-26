@@ -1,6 +1,7 @@
 @import url(../../../styles/main.css);
 @import url(../../../styles/burger.css);
 @import url(../../../styles/header.css);
+@import url(.../../../../../styles/news.css);
 @import url(../../../styles/footer.css);
 
 .news__section {
@@ -43,7 +44,8 @@
 }
 
 .text__wrap {
-    width: 80%;
+    width: 85%;
+    margin-bottom: 20px;
 }
 .text__wrap > .anotherDescr {
     font-size: 18px;
