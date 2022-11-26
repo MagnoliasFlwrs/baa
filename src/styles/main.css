@@ -144,7 +144,7 @@ body {
     font-family: "Manrope", sans-serif;
     font-weight: 400;
     color: #4c4d56;
-    margin-top: 25px;
+    margin-top: 20px;
     text-align: left;
     margin-bottom: 10px;
 }
@@ -214,6 +214,21 @@ body {
 .overlay.open {
     opacity: 1;
     visibility: visible;
+}
+
+.about__new {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.date > span {
+    display: inline-block;
+    font-size: .875rem;
+    padding-top: 0;
+    font-family: "Noto Sans", sans-serif;
+    color: #2f2f2f;
 }
 @media screen and (prefers-reduced-motion: no-preference) {
     html,

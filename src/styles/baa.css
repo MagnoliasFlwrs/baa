@@ -3,13 +3,33 @@
     padding: 330px 0;
     background-image: url(../assets/Desktop\ -\ 2.png);
     background-position: top right;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .baa__box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+.social__button {
+    width: 200px;
+    height: 40px;
+    color: #ffffff;
+    border: none;
+    background-color: #1151d3;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: 0 6px 4px -4px rgba(17, 81, 211, 0.63);
+}
+.social__button > a {
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    line-height: 1.7em;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+
 }
 
 
@@ -19,7 +39,7 @@
     justify-content: space-between;
     align-items: center;
 }
-@media (max-width: 1170px)  {
+@media (max-width: 1250px)  {
     .baa {
         background-position: top right;
         background-size: cover;
@@ -33,13 +53,14 @@
         background-image: url(../assets/Desktop\ -\ 1\ mobile.png);
         background-position: right;
     }
-    .social > a > img {
-        width: 80%;
-        height: 80%;
 
-    }
     .social {
         flex-direction: column;
+    }
+    .social__button {
+        width: 150px;
+        margin-left: 0;
+        margin-bottom: 20px;
     }
     .baa__box > .tittle {
         font-size: 20px;

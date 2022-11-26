@@ -80,7 +80,7 @@
     font-style: italic;
 }
 @media (max-width:768px) {
-    .comment__baa , .comment__baa__main {
+    .comment__baa , .comment__baa__main , .news__month {
         width: 100%;
     }
 }
