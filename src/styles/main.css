@@ -227,20 +227,18 @@ body {
     display: inline-block;
     font-size: .875rem;
     padding-top: 0;
-    font-family: "Noto Sans", sans-serif;
     color: #2f2f2f;
 }
 .more__news {
     padding-top: 30px;
+    border-top: 1px solid #f1f1f1;
 }
-.more__news >h2 {
+.more__news > h2 {
     margin: 0;
-    padding: 35px 0;
+    padding: 20px 0 35px;
     font-weight: 400;
-    font-family: "Noto Sans", sans-serif;
     color: #2f2f2f;
     font-size: 20px;
-    line-height: 24px;
 }
 @media screen and (prefers-reduced-motion: no-preference) {
     html,
