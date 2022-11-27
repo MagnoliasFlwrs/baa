@@ -12,7 +12,7 @@
     align-items: flex-start;
 }
 .social__button {
-    width: 200px;
+    width: 130px;
     height: 40px;
     color: #ffffff;
     border: none;
@@ -20,6 +20,14 @@
     border-radius: 5px;
     margin-right: 20px;
     box-shadow: 0 6px 4px -4px rgba(17, 81, 211, 0.63);
+}
+.social__button:first-child {
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 46%);
+
+}
+.social__button:first-child > a {
+    color: #2f2f2f;
 }
 .social__button > a {
     font-size: 15px;
