@@ -62,11 +62,14 @@ allBtn.forEach((btn) => {
 //  }
 
 document.addEventListener('DOMContentLoaded', () => {
-    new ItcSlider('.slider' , {
-        loop:true,
-        swipe:true
+    document.querySelectorAll('.slider').forEach((el) => {
+      new ItcSlider(el, {
+        loop: true,
+        swipe: true,
+      })
     });
-});
+  });
+
 overlay.addEventListener('click', () => {
             subMenu.classList.remove('open');
             overlay.classList.remove('open');
@@ -141,10 +144,10 @@ const scrollChange = 10
 const add_class_on_scroll = () => header.classList.add("_onscroll")
 const remove_class_on_scroll = () => header.classList.remove("_onscroll")
 
-window.addEventListener('scroll', function() { 
+window.addEventListener('scroll', function() {
   scrollpos = window.scrollY;
 
   if (scrollpos >= scrollChange) { add_class_on_scroll() }
   else { remove_class_on_scroll() }
-  
+
 })
