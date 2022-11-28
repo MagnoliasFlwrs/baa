@@ -24,6 +24,10 @@
     padding-left: 15px;
     margin-bottom: 0;
 }
+.icon__tittle > div {
+    display: flex;
+    
+}
 .join__inner > .firstdescr {
     margin-top: 5px;
 }
