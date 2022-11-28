@@ -23,7 +23,17 @@
     margin-bottom: 0;
 }
 .goal__inner > .anotherDescr {
-    margin-top: 20px;
+    margin-top: 5px;
+}
+
+
+.icon__tittle {
+    display: flex;
+    align-items: center;
+}
+.icon__tittle > h2 {
+    padding-left: 15px;
+    margin-bottom: 0;
 }
 .img > img {
     object-fit: cover;

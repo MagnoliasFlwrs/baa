@@ -16,6 +16,17 @@
 .join__inner {
     padding-right: 50px;
 }
+.icon__tittle {
+    display: flex;
+    align-items: center;
+}
+.icon__tittle > h2 {
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+.join__inner > .firstdescr {
+    margin-top: 5px;
+}
 .documents__inner {
     background-color: #f1f1f1;
     padding: 25px;

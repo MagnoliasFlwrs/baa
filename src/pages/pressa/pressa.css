@@ -17,14 +17,22 @@
     height: 100%;
     border-radius: 5px;
 }
-
+.icon__tittle {
+    display: flex;
+    align-items: center;
+}
+.icon__tittle > h2 {
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+.text__wrapper > .anotherDescr {
+    margin-top: 10px;
+}
 .press__wrap {
     display: flex;
     justify-content: space-between;
 }
-.text__wrapper {
-    padding-left: 50px;
-}
+
 
 @media (max-width: 1024px) {
     .anotherDescr {

@@ -13,6 +13,17 @@
     justify-content: space-between;
     align-items: center;
 }
+.icon__tittle {
+    display: flex;
+    align-items: center;
+}
+.icon__tittle > h2 {
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+.icon__tittle > .submargin {
+    padding-left: 10px;
+}
 .text__wrapper {
     padding: 50px;
     max-width: 60%;
@@ -30,7 +41,7 @@
     margin-bottom: 15px;
 }
 .text__inner > .anotherDescr {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .text__inner:last-child {
     margin-bottom: 0;
