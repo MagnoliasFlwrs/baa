@@ -8,7 +8,7 @@
     position: absolute;
     left: 200px;
     bottom: 0;
-    padding: 45px;
+    padding: 35px;
     background-color: #ffffff;
     border-radius: 5px;
 }
@@ -20,7 +20,7 @@
     line-height: 1.7em;
     color: #000000;
     text-align: left;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .contacts__wrap h3 {
     font-family: "Manrope", sans-serif;
@@ -30,7 +30,7 @@
     line-height: 1.7em;
     color: #000000;
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     text-transform: uppercase;
 }
 .contact__description {
