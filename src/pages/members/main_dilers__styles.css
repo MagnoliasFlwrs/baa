@@ -1,0 +1,37 @@
+.dilership {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 30px 0;
+}
+.diler__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.logo__wrapper {
+    width: 30%;
+    height: 200px;
+}
+.logo__wrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.diler__text__wrapper {
+    width: 63%;
+}
+.diler__text__wrapper > .anotherDescr {
+    margin-top: 0;
+}
+.diler__info__box {
+    display: flex;
+}
+.diler__info__box > .anotherDescr {
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.diler__info__box {
+    margin: 40px 0 0 0;
+}
