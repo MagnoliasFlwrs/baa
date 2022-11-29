@@ -14,10 +14,13 @@
     justify-content: space-between;
 }
 .rule__text__wrap {
-    max-width: 65%;
+    width: 63%;
+}
+.img__text__wrap {
+    width: 34%;
 }
 .img {
-    width: 35%;
+    width: 100%;
     height: 250px;
 }
 .img > img {
@@ -28,6 +31,7 @@
 .rule__inner {
     width: 100%;
     background-color: #f1f1f1;
+    margin-top: 40px;
     padding: 25px;
     border-radius: 5px;
 }
@@ -57,10 +61,13 @@
         margin-bottom: 20px;
     }
     .rule__text__wrap {
-        max-width: 100%;
+        width: 100%;
         margin: 0 auto;
     }
     .img {
         display: none;
+    }
+    .img__text__wrap {
+        width: 100%;
     }
 }

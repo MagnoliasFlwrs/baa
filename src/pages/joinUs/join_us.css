@@ -16,17 +16,19 @@
 }
 .join__inner {
     padding-right: 50px;
-    width: 65%;
+    width: 63%;
 }
 .img {
     width: 100%;
     height: 250px;
-    padding-bottom: 20px;
 }
 .img > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.img__text__wrap {
+    width: 34%;
 }
 .icon__tittle {
     display: flex;
@@ -43,10 +45,12 @@
 .join__inner > .anotherDescr {
     margin-top: 10px;
 }
+
 .documents__inner {
     background-color: #f1f1f1;
     padding: 25px;
     border-radius: 5px;
+    margin-top: 40px;
 }
 
 .img >img {
@@ -84,6 +88,9 @@
     }
     .join__inner {
         padding-right: 0;
+        width: 100%;
+    }
+    .img__text__wrap {
         width: 100%;
     }
     .documents__inner {

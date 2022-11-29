@@ -246,6 +246,11 @@ body {
       scroll-behavior: smooth;
     }
   }
+  @media (max-width:970px) {
+    .nav__link {
+        font-size: 14px;
+    }
+  }
 
 
 

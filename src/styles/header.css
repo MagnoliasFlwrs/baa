@@ -152,15 +152,18 @@
         padding: 30px 10px;
     }
 }
-@media (max-width:935px) {
+@media (max-width:970px) {
     .links__font__style {
         font-size: 12px;
     }
     .links__font__style:not(:last-child) {
-        margin-right: 10px;
+        margin-right: 7px;
     }
     .navigation > li:not(:last-child) {
-        margin-right: 10px;
+        margin-right: 7px;
+    }
+    .menu__wrapper li {
+        padding: 30px 5px;
     }
 }
 /* @media (max-width: 860px) {
