@@ -19,7 +19,7 @@
 .preview__card {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+
 }
 .preview__card > .img {
     width: 35%;
