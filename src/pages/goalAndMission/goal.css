@@ -71,7 +71,8 @@
         display: none;
     }
     .goal__wrap {
-        flex-direction: column;
+        flex-direction: column-reverse;
+
     }
     .goal__wrap > .text__wrap {
         max-width: 100%;
@@ -82,7 +83,8 @@
         width: 100%;
     }
     .second__text__wrap {
-        max-width: 100%;
+        margin-top: 20px;
+        width: 100%;
         padding: 20px;
     }
 }
