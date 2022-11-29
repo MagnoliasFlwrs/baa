@@ -21,12 +21,15 @@
 }
 .goal__inner > .anotherSubtittle {
     margin-bottom: 0;
+    
 }
 .goal__inner > .anotherDescr {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
-
+.text__wrap {
+    width: 35%;
+}
 .icon__tittle {
     display: flex;
     align-items: center;
@@ -34,6 +37,7 @@
 .icon__tittle > h2 {
     padding-left: 15px;
     margin-bottom: 0;
+    font-size: 26px;
 }
 .img > img {
     object-fit: cover;
@@ -43,6 +47,7 @@
 }
 .img {
     margin-bottom: 30px;
+    height: 250px;
 }
 .second__text__wrap {
     max-width: 55%;

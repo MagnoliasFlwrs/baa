@@ -16,6 +16,20 @@
 .statistic__card {
     padding: 15px;
 }
+.preview__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.preview__card > .img {
+    width: 35%;
+    height: 250px;
+}
+.img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 .month__tittle {
     font-weight: 700;
     margin-bottom: 10px;
@@ -40,8 +54,8 @@
     box-shadow: -1px 0px 8px 2px rgba(34, 60, 80, 0.2);
 }
 .comment__baa__main {
-    width:70%;
-    padding-right: 30px;
+    width:65%;
+    padding-right: 50px;
     border-radius: 5px;
     background-color: #ffffff;
 }
@@ -82,5 +96,11 @@
 @media (max-width:768px) {
     .comment__baa , .comment__baa__main , .news__month {
         width: 100%;
+    }
+    .img {
+        display: none;
+    }
+    .comment__baa__main {
+        padding-right: 0;
     }
 }

@@ -32,6 +32,9 @@
     border-radius: 5px;
     padding-bottom: 10px;
 }
+.text__wrapper__management {
+    width: 70%;
+}
 .img {
     height: 350px;
 }
@@ -62,5 +65,8 @@
     .manager__card {
         margin: 0 auto;
         margin-bottom: 20px;
+    }
+    .text__wrapper__management {
+        width: 100%;
     }
 }
