@@ -12,7 +12,6 @@
 .text__wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .join__inner {
     padding-right: 50px;
@@ -71,6 +70,9 @@
     text-decoration: none;
     color: #1151d3;
     word-wrap: wrap;
+}
+.second__icon__tittle {
+    margin-top: 30px;
 }
 .download:nth-child(2) {
     margin: 10px 0;
