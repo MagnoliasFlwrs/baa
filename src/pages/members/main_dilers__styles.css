@@ -26,6 +26,7 @@
 }
 .diler__info__box {
     display: flex;
+
 }
 .diler__info__box > .anotherDescr {
     text-decoration: none;
@@ -34,4 +35,33 @@
 }
 .diler__info__box {
     margin: 40px 0 0 0;
+}
+.dilers__container {
+    max-width: 45% ;
+}
+.dilers__container > .diler__info__box {
+    justify-content: space-between;
+}
+@media (max-width:768px) {
+    .diler__wrapper {
+        flex-direction: column;
+    }
+    .logo__wrapper {
+        width: 100%;
+        padding: 15px 0 30px;
+    }
+    .diler__text__wrapper{
+        width: 100%;
+    }
+    .diler__info__box {
+        flex-direction: column;
+    }
+    .dilers__container {
+        max-width: 100%;
+        width: 100%;
+    }
+    .diler__info__box > .anotherDescr {
+        margin-left: 0;
+        margin-top: 0;
+    }
 }
