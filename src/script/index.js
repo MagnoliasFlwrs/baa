@@ -13,6 +13,7 @@ const allBtn = document.querySelectorAll('button')
 const allLinks = document.querySelectorAll('a')
 // let subMenu= "";
 const inputNum = document.querySelector('.input__number')
+const novemberNew = document.getElementById('november__sales__2022')
 
 allLinks.forEach((a) => {
     if (a.innerHTML === 'Личный кабинет') {
