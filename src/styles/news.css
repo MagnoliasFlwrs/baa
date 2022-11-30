@@ -183,7 +183,6 @@
 
 .news__form {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -210,7 +209,6 @@
 .news__form > button {
     padding: 0 12px ;
     height: 30px;
-    margin-top: 20px;
     color: #ffffff;
     border: none;
     background-color: #1151d3;
