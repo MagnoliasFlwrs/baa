@@ -26,6 +26,8 @@
     transition: all 0.5s ease;
     max-width: 80%;
     width: 100%;
+    max-height: 66px;
+    object-fit: contain;
 }
 .participants__participant > img:hover {
     filter: grayscale(0);
