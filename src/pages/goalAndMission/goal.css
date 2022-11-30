@@ -71,7 +71,7 @@
         display: none;
     }
     .goal__wrap {
-        flex-direction: column-reverse;
+        flex-direction: column;
 
     }
     .goal__wrap > .text__wrap {
