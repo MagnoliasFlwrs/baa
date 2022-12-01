@@ -256,9 +256,17 @@ body {
       scroll-behavior: smooth;
     }
   }
+  @media (max-width:1024px) {
+    .links__font__style {
+        font-size: 15px;
+    }
+  }
   @media (max-width:970px) {
     .nav__link {
         font-size: 14px;
+    }
+    .links__font__style {
+
     }
   }
 

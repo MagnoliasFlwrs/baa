@@ -124,7 +124,7 @@
 
 
 .nav__btn {
-    padding: 8px 12px;
+    padding: 5px 8px;
     color: #ffffff;
     border: none;
     background-color: #1151d3;
@@ -134,6 +134,7 @@
     font-family: "Manrope", sans-serif;
     font-weight: 700;
     line-height: 1.7em;
+    white-space: nowrap;
 }
 
 @media (max-width: 1200px) {
@@ -154,13 +155,7 @@
 }
 @media (max-width:970px) {
     .links__font__style {
-        font-size: 12px;
-    }
-    .links__font__style:not(:last-child) {
-        margin-right: 7px;
-    }
-    .navigation > li:not(:last-child) {
-        margin-right: 7px;
+        font-size: 14px;
     }
     .menu__wrapper li {
         padding: 30px 5px;
@@ -173,7 +168,7 @@
     }
 } */
 
-@media (max-width: 837px) {
+@media (max-width: 985px) {
     .logo > img {
         width: 75%;
         height: 75%;

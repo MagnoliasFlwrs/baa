@@ -262,7 +262,7 @@
         flex-direction: column;
     }
     .news__form > input {
-        margin: 25px 0;
+        margin: 0 0 25px;
         width: 180px;
     }
 
